@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">XposedDisableHooksReflectionKiller</string>
+    <string name="xposed_description">Make \"disableHooks\" unavailable to prevent hook failure.</string>
+</resources>
