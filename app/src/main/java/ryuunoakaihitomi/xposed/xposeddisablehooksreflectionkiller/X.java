@@ -21,7 +21,7 @@ public class X implements IXposedHookLoadPackage {
 
 
     @Override
-    public void handleLoadPackage(final XC_LoadPackage.LoadPackageParam lpparam) throws Throwable {
+    public void handleLoadPackage(final XC_LoadPackage.LoadPackageParam lpparam) {
 
         //clazz init
         ClassLoader classLoader = lpparam.classLoader;
